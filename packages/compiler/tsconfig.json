@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2019",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2019",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "inlineSources": true,
+    "esModuleInterop": true,
+    "sourceRoot": "",
+    "baseUrl": "./",
+    "paths": {
+      "@lib/*": [
+        "./lib/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
